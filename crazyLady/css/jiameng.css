@@ -1,0 +1,237 @@
+.hed img {
+    width: 100%;
+}
+.text-center img{
+    margin: 80px auto;
+    width: 38%;
+}
+.btn1 img:nth-child(1) {
+    width: 50%;
+}
+.btn1 img:nth-child(2) {
+    margin-top: -10%;
+    width: 100%;
+}
+.join-section .row div img {
+    width: 80%;
+}
+.section1 {
+    width: 90%;
+    margin: 0 auto;
+}
+h4 {
+    font-size: 25px;
+    margin: 10px 0 0px;
+}
+.row>div>p {
+    font-size: 14px;
+    text-indent: 2em;
+    margin: 10px 0;
+    line-height: 1.5em;
+    color: #bbb;
+}
+.section1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.lines {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    background: #bbb;
+}
+.colortext {
+    color: #87ccd5;
+}
+.row div strong {
+    font-size: 55px;
+    font-weight: normal;;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.joinsection .row div p {
+    height: 112px;
+}
+.row {
+    margin-top: 30px;
+}
+.section2 {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sec2left {
+    width: 75%;
+    float: left;
+}
+.sec2left img {
+    width: 100%;
+}
+.sec2right {
+    width: 25%;
+    float: left;
+}
+.sec2right h1 {
+    text-align: right;
+    font-size: 63px;
+    color: #87ccd5;
+}
+.sec2right span {
+    display: inline-block;
+    width: 50%;
+    padding: 5px 0;
+    float: right;
+    background: #ccc;
+}
+.sec2right>div {
+    font-size: 30px;
+    line-height: 40px;
+    height: 40px;
+    clear: both;
+    text-align: right;
+}
+.sec2right>p {
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ccc;
+    text-align: right;
+}
+.img100 img{
+    width: 100%;
+}
+.textcenter {
+    text-align: center;
+}
+.textshezhi p {
+    width: 90%;
+}
+.textshezhi  h3 {
+    text-align: right;
+    width: 90%;
+}
+.line10 {
+    display: inline-block;
+    padding: 5px 0;
+    width: 30%;
+    margin-left: 60%;
+    background: #ccc;
+}
+.pshezhi>div>p {
+    height: 126px;
+}
+.textbig {
+    font-size: 55px;
+    margin: 0;
+}
+.parttitle {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.textbiger {
+    font-size: 25px;
+    text-align: right;
+    width: 90%;
+    margin: 10px 0;
+}
+.part2 .text-center img, .part3 .text-center img{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 500px;
+}
+.part2>.row>div:nth-child(2),.part3>.row>div:nth-child(2) {
+    margin-top: 100px;
+}
+.fangkuai {
+    width: 30px;
+    height: 30px;
+    background: #87ccd5;
+    display: block;
+    margin: 0 auto;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+}
+.content>div {
+    margin-top: 30px;
+}
+.imgsss img {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+}
+.part4 li {
+    font-size: 16px;
+    color: #ccc;
+}
+.bigtext {
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+}
+.imgheight img  {
+     height: 100%;
+     width: auto;
+     margin-left: 30%;
+ }
+.imgheight {
+    /*height: 100%;*/
+    height: 860px;
+
+}
+.part4shezhi>div>h3{
+        text-align: right;
+        width: 90%
+}
+.part4shezhi>div {
+    margin: 10px 0;
+}
+.part4text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #ccc;
+    width: 90%;
+}
+.footerlink {
+    padding: 100px 0;
+        border-top: 1px solid #ccc;
+        width: 80%;
+        margin: 30px auto 0;
+}
+.footerlink p {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    /*font-weight: bolder;*/
+
+}
+.footerlink p span {
+    font-size: 14px;
+    color: #ccc;
+}
+.footerlink p img {
+    margin-left: 20px;
+}
+.jiaru {
+    width: 150px;
+    height: 50px;
+    background: #87ccd5;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    margin:  0 auto;
+    font-size: 20px;
+    border-radius: 5px;
+    display: none;
+}
+@media (max-width: 769px) {
+    .jiaru {
+        display: block;
+    }
+    .imgheight img {
+        display: none;
+    }
+}

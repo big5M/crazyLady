@@ -1,0 +1,468 @@
+
+.pictext {
+    border-bottom: 1px solid gray;
+}
+/*咖啡滚动*/
+.coffee-slide {
+    width: 100%;
+    margin-top: 70px;
+    height: 100%;
+    margin-bottom: 40px;
+}
+.item {
+    position: relative;
+}
+.coffee-wrap  {
+    width: 100%;
+    padding-bottom: 80px;
+    border-bottom: 1px solid gray;
+    /*overflow: hidden;*/
+}
+.coffee-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 60px;
+}
+div.imgs img {
+    width: 20%;
+    display: block;
+    margin:  0 auto;
+}
+.left-content, .right-content, .textcontent {
+    position: absolute;
+}
+.left-content img, .right-content img {
+    width: 245px;
+}
+.left-content  {
+    left: 26%;
+top: 0;
+}
+.right-content {
+    left: 53%;
+    top: 56%;
+}
+.textcontent {
+    left: 18%;
+top: 4%;
+}
+.item>div>span {
+    position: absolute;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.left-content span {
+    left: 18px;
+    top: -10px;
+
+}
+.right-content span {
+    left: 57%;
+top: 100%;
+}
+.textcontent p{
+    width: 165px;
+    font-size: 1.2em;
+    color: gray;
+    line-height: 20px;
+}
+.coffee-button-next {
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    -moz-background-size: 27px 44px;
+    -webkit-background-size: 27px 44px;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 10px;
+    background: url("../img/35.png") no-repeat;
+    opacity: 0.7;
+}
+.coffee-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    -moz-background-size: 27px 44px;
+    -webkit-background-size: 27px 44px;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 10px;
+    background: url(../img/12.png) no-repeat;
+    opacity: 0.7;
+}
+.coffee-button-prev:hover {
+    opacity: 1;
+}
+.coffee-button-next:hover {
+    opacity: 1;
+}
+.coffee-container .coffee-pagination {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border: 2px solid #aaa;
+}
+.coffee-pagination span.swiper-pagination-bullet {
+    background: white;
+}
+.coffee-pagination span.swiper-pagination-bullet-active {
+    background: #aaa;
+}
+
+.img-top {
+    width: 22%;
+    height: 46%;
+    position: absolute;
+    top: 0;
+    left: 39%;
+}
+.img-bottom {
+    width: 22%;
+    height: 36%;
+    position: absolute;
+    top: 46%;
+    left: 39%;
+    }
+.left-content, .right-content {
+    display: none;
+}
+.img_show, .img_show img{
+    width: 100%;
+}
+.img_show {
+    border-top: 1px solid gray;
+}
+.img_show h1 {
+    font-size: 28px;
+    margin: 100px 0;
+    text-align: center;
+}
+.row li {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.row li span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background-color: #79cad6;
+    text-align: center;
+}
+.sweep {
+        width: 300px;
+        margin: 0 auto;
+}
+.sweep .text,.sweep .btn {
+    width: 50%;
+    min-width: 130px;
+    float: left;
+}
+.btn button {
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #79cad6;
+}
+.btn {
+    position: relative;
+    z-index: 100;
+}
+.btn img {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: none;
+    z-index: 100;
+}
+.btn button:hover  img.erweima{
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 100;
+
+}
+.sweep .text h4 {
+    font-size: 12px;
+    color: #aaa;
+}
+.container img, .map>img {
+    width: 100%;
+}
+.pic1>img, .pic3>img {
+    width: auto;
+    display: block;
+    margin: 140px auto;
+}
+.container {
+    margin: 0 auto;
+}
+.con2 ul li h2 {
+    font-size: 24px;
+}
+.con2 {
+    border-bottom: 1px solid gray;
+}
+.con2 ul li p {
+    font-size: 14px;
+    line-height: 18px;
+    color: gray;
+    margin-bottom: 10px;
+}
+@media (min-width: 769px){
+    .textcontent ,.textcontent h5{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .row .col-lg-3{
+        width:100%;
+    }
+
+}
+@media (max-width: 768px) {
+    ul.navbar-nav {
+        float: left;
+    }
+  .pictext img {
+    width: 50%;
+  }
+  .left-content {
+      display: none;
+  }
+  .right-content {
+      display: none;
+  }
+  div.textcontent h5, div.textcontent {
+      display: black ;
+  }
+  div.textcontent {
+    width: 30%;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    left: 38%;
+    top: 95%;
+    text-align: center;
+  }
+  .coffee-pagination {
+     margin-top: 70px;
+  }
+
+}
+.sky-carousel {
+    padding-top: 90px;
+}
+.sky-carousel-wrapper,.sky-carousel-container {
+    width: 100%;
+    height: 100%;
+}
+.sky-carousel-container li>span {
+    border-bottom: 2px solid #79cee5;
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.sky-carousel-container li span, .sc-content p span {
+    color: #79cee5;
+}
+.sky-carousel-container li {
+    text-align: center;
+    width: 315px;
+    -webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.3));
+}
+.sc-selected img {
+    width: 315px;
+    /*margin-top: 60px;*/
+}
+.sky-carousel .sc-content-wrapper p{
+    display: block;
+    width: 315px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.sky-carousel-container li>h2,.sky-carousel-container li>span {
+    display: none;
+}
+li .sc-content p{
+    display: none;
+
+}
+.content div:nth-child(7) {
+    border-bottom: 1px solid gray;
+}
+.text-center>div>p {
+    display: none;
+    width: 78%;
+    font-size: 14px;
+    line-height: 18px;
+    margin:20px auto;
+}
+.hovershow {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    color: white;
+    transition: 0.5s;
+}
+.w {
+    position: relative;
+}
+.w .hovershow h3 {
+    font-size: 20px;
+    line-height: 22px;
+}
+.con4{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding-bottom: 30px;
+}
+.map {
+    position: relative;
+}
+.map .posi {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.posi img, .map .posi div{
+    position: absolute;
+}
+.posilogo {
+    top: 75%;
+    left: 68%;
+    width: 131px;
+}
+.posiline {
+    top: 66%;
+    left: 60%;
+    width: 114px;
+    z-index: 100;
+}
+.posi .point {
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    top: 65%;
+    left: 59%;
+
+}
+.location-detail {
+    color: #fff;
+    width: 130px;
+    height: 170px;
+    position: absolute;
+    left: 27%;
+    top: 22%;
+}
+.city-info p {
+    color: #97c5cc;
+    font-size: 12px;
+}
+.city-info {
+    width: 130px;
+    height: 155px;
+    background-color: #739aa5;
+    padding-left: 9px;
+    padding-top: 7px;
+    font-size: 12px;
+    font-family: "华文细黑";
+    color: #f1f1f1;
+    overflow: auto;
+}
+.city-info li {
+    margin: 6px 0;
+    cursor: pointer;
+    list-style: circle;
+    margin-left: 10px;
+}
+.location-detail {
+    color: #fff;
+    width: 130px;
+    height: 170px;
+    position: absolute;
+    left: 27%;
+    top: 22%;
+}
+.city {
+    width: 130px;
+    height: 35px;
+    padding: 9px 10px;
+    font-family: "华文细黑";
+    font-size: 13px;
+    background-color: #7bcbd6;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.city-arrow {
+    width: 8px;
+    margin-top: 2px;
+    /* height: 14px; */
+    float: right;
+}
+
+.city-arrow-down {
+    width: 15px;
+    margin-top: 4px;
+    float: right;
+    display: none;
+}
+.none {
+    display: none;
+}
+#map {
+    margin-bottom: 20px;
+
+}
+.content>.pic1 {
+    border-top: 1px solid gray;
+    margin-top: 50px;
+}
+#connect-us {
+    text-align: center;
+    margin-bottom: 100px;
+}
+#connect-us span {
+    margin-right: 120px;
+}
+
+.links {
+
+    width: 100%;
+    text-align: center;
+}
+.links a {
+    display: inline-block;
+    width: 20%;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.content>div:nth-child(1) img {
+    width: 100%;
+}
